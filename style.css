@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 body {
   font-family: sans-serif;
   background: black;
@@ -19,11 +20,13 @@ body {
   margin: -25 13;
 }
 .txx {
-  background: black;
+  background: #1A1A1A;
   border: none;
+  border-radius: 16px;
   font-size: 19px;
   font-family: sans-serif;
   color: hotpink;
+  margin: 80 135;
 }
 .btm {
   position: fixed;
@@ -38,4 +41,35 @@ button {
   background: purple;
   color: white;
   border-radius: 0px;
+}
+.msgholder {
+  padding: 15 135px;
+  margin: 135 160px;
+  border-radius: 19px;
+  text-align: left;
+}
+.sendbtn {
+  margin: -176 -225px;
+  padding: 12 13px;
+  border-radius: 20px;
+}
+.title2 {
+  color: red;
+}
+.title {
+  color: orange;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  margin: 100px;
+  font-size: 50px;
+  cursor: default;
+}
+.launchbtn {
+  background: orange;
+  border: none;
+  padding: 12 40px;
+  border-radius: 10px;
+  margin: -90px;
+  font-size: 24px;
+  cursor: pointer;
 }
