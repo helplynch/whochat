@@ -73,3 +73,6 @@ button {
   font-size: 24px;
   cursor: pointer;
 }
+textarea {
+  resize: none;
+}
