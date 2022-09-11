@@ -45,3 +45,6 @@ var input = document.getElementById("msgholder").value
 while (emojitag >= 2) {
   document.getElementById("emojiholder").value = "";
 }
+window.onload = function {
+  socket.publish("newchat", { text: ("Someone has connected!" + " \n") })
+}
